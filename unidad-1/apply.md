@@ -132,3 +132,75 @@ while True:
     }
   }
 ```
+
+### Actividad 06
+
+- Estos fueron los códigos finales con los que logré finalizar correctamente el problema propuesto en clase:
+
+**p5.js**:
+
+```js
+let port;
+  let connectBtn;
+
+  let x = 200;
+  let y = 200;
+
+
+  function setup() {
+    createCanvas(400, 400);
+    background(220);
+    port = createSerial();
+    connectBtn = createButton("Connect to micro:bit");
+    connectBtn.position(80, 300);
+    connectBtn.mousePressed(connectBtnClick);
+  }
+
+  
+
+  function draw() {
+    background(220);
+    
+    
+    if (port.availableBytes() > 0) {
+      let dataRx = port.read(1);
+      if (dataRx == "A") {
+        x = x - 1;
+      }
+      if (dataRx == "B") {
+        x = x + 1;
+      }
+    }
+
+    circle(x, y, 50);
+
+    if (!port.opened()) {
+      connectBtn.html("Connect to micro:bit");
+    } else {
+      connectBtn.html("Disconnect");
+    }
+  }
+
+  function connectBtnClick() {
+    if (!port.opened()) {
+      port.open("MicroPython", 115200);
+    } else {
+      port.close();
+    }
+  }
+```
+**Micro:bit**: 
+
+```py
+from microbit import *
+
+uart.init(baudrate=115200)
+
+while True:
+
+    if button_a.was_pressed():
+        uart.write('A')
+    if button_b.was_pressed():
+        uart.write('B')
+
+ ```
