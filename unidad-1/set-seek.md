@@ -4,7 +4,7 @@
 
 ### Actividad 01
 
- #### - ¿Qué es un sistema físico interactivo?
+#### - ¿Qué es un sistema físico interactivo?
 
 Un sistema físico interactivo es un conjunto de componentes tecnológicos que permiten a los usuarios interactuar de manera física y en tiempo real con una experiencia digital, como en videojuegos, simuladores o instalaciones artísticas interactivas. Estos sistemas detectan acciones del usuario y responden generando una reacción visual, sonora o física que enriquece una experiencia predeterminada.
 
@@ -22,7 +22,7 @@ El arte o diseño generativo es un proceso creativo en el que el artista o dise�
 
 El arte y diseño generativo, basado en IA, algoritmos y sistemas autónomos, puede potenciar mi perfil profesional al aplicarse en áreas como videojuegos (generación procedural de niveles, música adaptativa) o inteligencia artificial creativa (NPCs, arte conceptual, narrativa dinámica). Al combinar tu formación técnica con procesos creativos automatizados, puedes crear experiencias únicas, escalables e innovadoras, fortaleciendo tu portafolio y perfil profesional en industrias como videojuegos, medios inmersivos y tecnologías interactivas.
 
-### - Actividad 03
+### Actividad 03
 
 Luego de hacer el proceso de exploración con la tarjeta micro:bit, estas son mis respuestas:
 
