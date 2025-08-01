@@ -2,7 +2,7 @@
 
 ## 🔎 Fase: Set + Seek
 
-### Actividad 01:
+### Actividad 01
 
 **1.** Este código crea una clase `Pixel` que representa un LED en la tarjeta microbit, el cual puede parpadear en diferentes intervalos de tiempo. Cada objeto `Pixel` usa una máquina de estados. En el estado `Init` enciende el LED y guarda el tiempo, y en `WaitTimeout` alterna el brillo entre 0 (apagado) y 9 (encendido) cada cierto intervalo (en milisegundos). En el bucle principal, se actualizan dos píxeles en posiciones distintas que parpadean con diferentes velocidades.
 
@@ -21,7 +21,7 @@
 - **Actualizar el estado interno:** Mantener o cambiar el estado `Init` o `WaitTimeout` según corresponda.
 
 
-### Actividad 02:
+### Actividad 02
 
 **Paso 1:**
 
