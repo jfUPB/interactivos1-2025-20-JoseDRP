@@ -31,9 +31,9 @@
 
 - Luego, establecí cuántos segundos debe durar cada luz del semáforo antes de cambiar. Estos tiempos son típicos para simular un semáforo básico y proporcionan un ciclo adecuado de cambio entre las luces. Por tanto, usé tiempos peredeterminados para cada estado:
 
-Rojo = 3seg
-Amarillo = 1seg
-Verde = 5seg
+ - Rojo = 3seg
+ - Amarillo = 1seg
+ - Verde = 5seg
 
 **Paso 3:**
 
