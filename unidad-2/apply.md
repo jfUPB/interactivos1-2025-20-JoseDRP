@@ -1,11 +1,5 @@
 # Unidad 2
 
-
-## 🛠 Fase: Apply
-
-# Unidad 2
-
-
 ## 🛠 Fase: Apply
 
 ### Actividad 04
@@ -80,3 +74,4 @@ while True:
             display.clear()
 
 ```
+
